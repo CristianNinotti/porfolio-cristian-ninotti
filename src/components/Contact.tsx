@@ -49,19 +49,19 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "alex@example.com",
-      href: "mailto:alex@example.com"
+      value: "cristianninotti03@gmail.com",
+      href: "mailto:cristianninotti03@gmail.com"
     },
     {
       icon: Phone,
       title: "Teléfono",
-      value: "+34 123 456 789",
-      href: "tel:+34123456789"
+      value: "+54 341 515 5611",
+      href: "tel:+543415155611"
     },
     {
       icon: MapPin,
       title: "Ubicación",
-      value: "Madrid, España",
+      value: "Rosario, Santa Fe, Argentina",
       href: "https://maps.google.com"
     }
   ];
@@ -116,7 +116,7 @@ const Contact = () => {
                 <Button 
                   variant="hero" 
                   className="w-full"
-                  onClick={() => window.open("https://wa.me/34123456789", '_blank')}
+                  onClick={() => window.open("https://wa.me/543415155611", '_blank')}
                 >
                   Abrir WhatsApp
                 </Button>

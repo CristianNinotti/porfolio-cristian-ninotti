@@ -36,7 +36,7 @@ const Hero = () => {
           <h1 className="text-5xl md:text-7xl font-bold leading-tight">
             Hola, soy{" "}
             <span className="gradient-text">
-              Alex Developer
+              Cristian Ninotti
             </span>
           </h1>
           
@@ -58,10 +58,20 @@ const Hero = () => {
           </div>
 
           <div className="flex justify-center space-x-6 pt-8">
-            <Button variant="ghost" size="icon" className="hover:text-primary">
+            <Button 
+              variant="ghost" 
+              size="icon" 
+              className="hover:text-primary"
+              onClick={() => window.open("https://github.com/CristianNinotti", '_blank')}
+            >
               <Github className="w-6 h-6" />
             </Button>
-            <Button variant="ghost" size="icon" className="hover:text-primary">
+            <Button 
+              variant="ghost" 
+              size="icon" 
+              className="hover:text-primary"
+              onClick={() => window.open("https://www.linkedin.com/in/cristian-ninotti", '_blank')}
+            >
               <Linkedin className="w-6 h-6" />
             </Button>
           </div>
