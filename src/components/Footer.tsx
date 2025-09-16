@@ -16,7 +16,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold gradient-text">Cristian.dev</h3>
+            <h3 className="text-2xl font-bold gradient-text">Ninotti.com.ar</h3>
             <p className="text-muted-foreground leading-relaxed">
               Desarrollador Full Stack especializado en crear experiencias web 
               modernas y soluciones digitales innovadoras.

@@ -6,30 +6,29 @@ const Technologies = () => {
       title: "Frontend",
       techs: [
         { name: "React", level: 95, color: "text-blue-400" },
-        { name: "TypeScript", level: 90, color: "text-blue-600" },
-        { name: "Next.js", level: 85, color: "text-black dark:text-white" },
+        { name: "TypeScript", level: 50, color: "text-blue-600" },
+        { name: "JavaScript", level: 70, color: "text-yellow-400" },
         { name: "Tailwind CSS", level: 92, color: "text-cyan-400" },
-        { name: "Vue.js", level: 80, color: "text-green-500" },
       ]
     },
     {
       title: "Backend",
       techs: [
         { name: "Node.js", level: 88, color: "text-green-600" },
-        { name: "Express", level: 85, color: "text-gray-600" },
         { name: "Python", level: 82, color: "text-yellow-500" },
-        { name: "MongoDB", level: 80, color: "text-green-700" },
-        { name: "PostgreSQL", level: 78, color: "text-blue-700" },
+        { name: "MySQL", level: 90, color: "text-blue-500" },
+        { name: "MongoDB", level: 50, color: "text-green-700" },
+        { name: "PostgreSQL", level: 45, color: "text-blue-700" },
       ]
     },
     {
       title: "Herramientas",
       techs: [
-        { name: "Git", level: 92, color: "text-orange-600" },
+        { name: "Git", level: 100, color: "text-orange-600" },
         { name: "Docker", level: 75, color: "text-blue-500" },
-        { name: "AWS", level: 70, color: "text-orange-500" },
+        { name: "AWS", level: 40, color: "text-orange-500" },
         { name: "Figma", level: 85, color: "text-purple-500" },
-        { name: "Vercel", level: 88, color: "text-black dark:text-white" },
+        { name: "Vercel", level: 88, color: "text-white" },
       ]
     }
   ];
@@ -66,7 +65,7 @@ const Technologies = () => {
                         <span className={`font-medium ${tech.color}`}>
                           {tech.name}
                         </span>
-                        <span className="text-sm text-muted-foreground">
+                        <span className="text-sm text-foreground">
                           {tech.level}%
                         </span>
                       </div>

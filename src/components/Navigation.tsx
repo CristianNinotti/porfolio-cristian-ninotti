@@ -42,7 +42,7 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="font-bold text-xl gradient-text">
-            Cristian.dev
+            Ninotti.com.ar
           </div>
 
           {/* Desktop Navigation */}
