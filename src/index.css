@@ -17,10 +17,10 @@
     --popover: 220 13% 8%;
     --popover-foreground: 210 40% 98%;
 
-    /* Primary brand colors - Subtle blue theme */
-    --primary: 210 80% 45%;
+    /* Primary brand colors - Dark intense theme */
+    --primary: 210 90% 35%;
     --primary-foreground: 220 15% 4%;
-    --primary-glow: 210 70% 55%;
+    --primary-glow: 210 85% 45%;
 
     /* Secondary colors */
     --secondary: 240 10% 15%;

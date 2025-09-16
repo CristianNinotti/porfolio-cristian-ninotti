@@ -10,6 +10,7 @@ const Navigation = () => {
     { label: "Inicio", href: "#home" },
     { label: "Sobre Mí", href: "#about" },
     { label: "Tecnologías", href: "#technologies" },
+    { label: "Formación", href: "#education" },
     { label: "Proyectos", href: "#projects" },
     { label: "Contacto", href: "#contact" },
   ];
