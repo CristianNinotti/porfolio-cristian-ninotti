@@ -32,16 +32,25 @@ const Projects = () => {
       technologies: ["JavaScript", "HTML5", "CSS3", "Canvas"],
       liveUrl: "https://github.com/CristianNinotti/Juego_Pong_con_JS",
       githubUrl: "https://github.com/CristianNinotti/Juego_Pong_con_JS",
-      featured: false
+      featured: true
     },
     {
       title: "Pokémon POO",
       description: "Implementación de un sistema de batalla Pokémon aplicando conceptos de Programación Orientada a Objetos en Python.",
-      image: project1,
+      image: project2,
       technologies: ["Python", "POO", "Classes"],
       liveUrl: "https://github.com/CristianNinotti/Poo-Pokemon",
       githubUrl: "https://github.com/CristianNinotti/Poo-Pokemon",
-      featured: false
+      featured: true
+    },
+    {
+      title: "Cotizador App",
+      description: "Aplicación web para cotización de productos y servicios con interfaz intuitiva y cálculos automáticos de precios.",
+      image: project3,
+      technologies: ["JavaScript", "HTML", "CSS", "Bootstrap"],
+      liveUrl: "https://github.com/CristianNinotti/-tup-lc2-cotizador-app",
+      githubUrl: "https://github.com/CristianNinotti/-tup-lc2-cotizador-app",
+      featured: true
     }
   ];
 
