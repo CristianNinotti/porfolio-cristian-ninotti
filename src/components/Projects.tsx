@@ -51,6 +51,15 @@ const Projects = () => {
       liveUrl: "https://github.com/CristianNinotti/-tup-lc2-cotizador-app",
       githubUrl: "https://github.com/CristianNinotti/-tup-lc2-cotizador-app",
       featured: true
+    },
+    {
+      title: "Terapias Complementarias",
+      description: "Plataforma web para terapias complementarias con sistema de reservas, información de servicios y gestión de citas.",
+      image: project1,
+      technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+      liveUrl: "https://github.com/CristianNinotti/terapias-complementarias",
+      githubUrl: "https://github.com/CristianNinotti/terapias-complementarias",
+      featured: true
     }
   ];
 

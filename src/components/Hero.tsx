@@ -46,7 +46,12 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
-            <Button variant="hero" size="xl" className="group">
+            <Button 
+              variant="hero" 
+              size="xl" 
+              className="group"
+              onClick={() => window.open("https://drive.google.com/file/d/1Nnx-Of01YnlvVy5bNon1lnGh577KHzwx/view?usp=drive_link", '_blank')}
+            >
               <Download className="w-5 h-5 group-hover:scale-110 transition-transform" />
               Descargar CV
             </Button>
