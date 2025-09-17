@@ -61,31 +61,6 @@ const About = () => {
           </div>
         </div>
 
-        <div className="scroll-reveal">
-          <Card variant="glass" className="p-8">
-            <div className="text-center">
-              <h3 className="text-2xl font-semibold mb-4 text-primary">¿Listo para colaborar?</h3>
-              <p className="text-muted-foreground mb-6">
-                Estoy siempre abierto a discutir nuevos proyectos, ideas creativas 
-                o oportunidades para formar parte de tu visión.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a 
-                  href="#contact" 
-                  className="inline-flex items-center justify-center h-10 px-8 bg-gradient-primary text-white rounded-md font-medium hover:shadow-glow transition-all duration-300"
-                >
-                  Hablemos
-                </a>
-                <a 
-                  href="mailto:alex@example.com" 
-                  className="inline-flex items-center justify-center h-10 px-8 bg-card/50 text-foreground rounded-md font-medium border border-border/50 hover:bg-card transition-all duration-300"
-                >
-                  alex@example.com
-                </a>
-              </div>
-            </div>
-          </Card>
-        </div>
       </div>
     </section>
   );
