@@ -17,7 +17,7 @@ const Projects = () => {
       featured: true
     },
     {
-      title: "Perfumeria Maison",
+      title: "Ecommerce Perfumes - Perfumeria Maison",
       description: "Plataforma de comercio electrónico especializada en perfumes con carrito de compras, gestión de productos y sistema de usuarios.",
       image: project2,
       technologies: ["JavaScript", "HTML", "CSS", "PHP", "MySQL"],
