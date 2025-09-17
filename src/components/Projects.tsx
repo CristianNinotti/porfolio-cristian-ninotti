@@ -8,7 +8,7 @@ import project3 from "@/assets/project-3.jpg";
 const Projects = () => {
   const projects = [
     {
-      title: "ServiTurnos",
+      title: "Turnero ServiciosIndependientes - ServiTurnos",
       description: "Sistema de gestión de turnos para servicios profesionales con funcionalidades de reserva, notificaciones y administración de horarios.",
       image: project1,
       technologies: ["React", "Node.js", "MySQL", "Express"],
@@ -17,7 +17,7 @@ const Projects = () => {
       featured: true
     },
     {
-      title: "E-commerce Perfumes",
+      title: "Perfumeria Maison",
       description: "Plataforma de comercio electrónico especializada en perfumes con carrito de compras, gestión de productos y sistema de usuarios.",
       image: project2,
       technologies: ["JavaScript", "HTML", "CSS", "PHP", "MySQL"],
