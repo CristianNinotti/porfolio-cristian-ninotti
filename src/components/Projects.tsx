@@ -44,7 +44,7 @@ const Projects = () => {
       featured: true
     },
     {
-      title: "Cotizador App",
+      title: "Cotizador de Monedas - Cotizador App",
       description: "Aplicación web para cotización de productos y servicios con interfaz intuitiva y cálculos automáticos de precios.",
       image: project3,
       technologies: ["JavaScript", "HTML", "CSS", "Bootstrap"],
