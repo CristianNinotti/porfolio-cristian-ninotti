@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
-import { ArrowDown, Download, Github, Linkedin } from "lucide-react";
+import { ArrowDown, Download, Github, Linkedin, Code, Terminal, Braces } from "lucide-react";
 import heroImage from "@/assets/hero-bg.jpg";
+import profilePhoto from "@/assets/profile-photo.jpg";
 
 const Hero = () => {
   return (
@@ -33,6 +34,25 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-20 text-center max-w-4xl mx-auto px-6">
         <div className="space-y-6 scroll-reveal">
+          {/* Profile Photo with Code Icons */}
+          <div className="flex justify-center mb-8">
+            <div className="relative">
+              <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-primary/30 shadow-2xl relative bg-gradient-primary p-1">
+                <img 
+                  src={profilePhoto} 
+                  alt="Cristian Ninotti" 
+                  className="w-full h-full object-cover rounded-full"
+                />
+              </div>
+              {/* Floating Code Icons */}
+              <Code className="absolute -top-2 -right-2 w-8 h-8 text-primary/70 animate-pulse" />
+              <Terminal className="absolute -bottom-2 -left-2 w-6 h-6 text-primary/60 animate-pulse" style={{ animationDelay: '0.5s' }} />
+              <Braces className="absolute top-6 -right-4 w-6 h-6 text-primary/50 animate-pulse" style={{ animationDelay: '1s' }} />
+              <div className="absolute -top-1 left-8 w-4 h-4 bg-primary/40 rounded-full animate-pulse" style={{ animationDelay: '1.5s' }} />
+              <div className="absolute -bottom-1 right-8 w-3 h-3 bg-primary/30 rounded-full animate-pulse" style={{ animationDelay: '2s' }} />
+            </div>
+          </div>
+          
           <h1 className="text-5xl md:text-7xl font-bold leading-tight">
             Hola, soy{" "}
             <span className="gradient-text">
