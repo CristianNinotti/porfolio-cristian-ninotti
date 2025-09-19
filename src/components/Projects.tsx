@@ -16,7 +16,7 @@ const Projects = () => {
       description: "Sistema de gestión de turnos para servicios profesionales con funcionalidades de reserva, notificaciones y administración de horarios.",
       image: project1,
       technologies: ["React", "Node.js", "MySQL", "Express"],
-      liveUrl: "https://github.com/CristianNinotti/ServiTurnos",
+      liveUrl: null,
       githubUrl: "https://github.com/CristianNinotti/ServiTurnos",
       featured: true
     },
@@ -25,7 +25,7 @@ const Projects = () => {
       description: "Plataforma de comercio electrónico especializada en perfumes con carrito de compras, gestión de productos y sistema de usuarios.",
       image: project2,
       technologies: ["JavaScript", "HTML", "CSS", "PHP", "MySQL"],
-      liveUrl: "https://github.com/CristianNinotti/TPI-Grupo1-EcommercePerfumes",
+      liveUrl: null,
       githubUrl: "https://github.com/CristianNinotti/TPI-Grupo1-EcommercePerfumes",
       featured: true
     },
