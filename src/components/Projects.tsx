@@ -4,6 +4,8 @@ import { ExternalLink, Github } from "lucide-react";
 import project1 from "@/assets/project-1.jpg";
 import project2 from "@/assets/project-2.jpg";
 import project3 from "@/assets/project-3.jpg";
+import cotizadorImage from "@/assets/cotizador-image.png";
+import pokemonImage from "@/assets/pokemon-image.png";
 
 const Projects = () => {
   const projects = [
@@ -37,18 +39,18 @@ const Projects = () => {
     {
       title: "Pokémon POO",
       description: "Implementación de un sistema de batalla Pokémon aplicando conceptos de Programación Orientada a Objetos en Python.",
-      image: project2,
+      image: pokemonImage,
       technologies: ["Python", "POO", "Classes"],
-      liveUrl: "https://github.com/CristianNinotti/Poo-Pokemon",
+      liveUrl: null,
       githubUrl: "https://github.com/CristianNinotti/Poo-Pokemon",
       featured: true
     },
     {
       title: "Cotizador de Monedas - Cotizador App",
       description: "Aplicación web para cotización de productos y servicios con interfaz intuitiva y cálculos automáticos de precios.",
-      image: project3,
+      image: cotizadorImage,
       technologies: ["JavaScript", "HTML", "CSS", "Bootstrap"],
-      liveUrl: "https://github.com/CristianNinotti/-tup-lc2-cotizador-app",
+      liveUrl: "https://cristianninotti.github.io/-tup-lc2-cotizador-app/",
       githubUrl: "https://github.com/CristianNinotti/-tup-lc2-cotizador-app",
       featured: true
     },
@@ -95,11 +97,13 @@ const Projects = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <div className="flex space-x-4">
-                    <Button variant="hero" size="sm">
-                      <ExternalLink className="w-4 h-4" />
-                      Ver Proyecto
-                    </Button>
-                    <Button variant="minimal" size="sm">
+                    {project.liveUrl && (
+                      <Button variant="hero" size="sm" onClick={() => window.open(project.liveUrl!, '_blank')}>
+                        <ExternalLink className="w-4 h-4" />
+                        Ver Proyecto
+                      </Button>
+                    )}
+                    <Button variant="minimal" size="sm" onClick={() => window.open(project.githubUrl, '_blank')}>
                       <Github className="w-4 h-4" />
                       Código
                     </Button>
@@ -131,17 +135,19 @@ const Projects = () => {
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-3">
-                    <Button 
-                      variant="hero" 
-                      className="flex-1"
-                      onClick={() => window.open(project.liveUrl, '_blank')}
-                    >
-                      <ExternalLink className="w-4 h-4" />
-                      Ver Proyecto
-                    </Button>
+                    {project.liveUrl && (
+                      <Button 
+                        variant="hero" 
+                        className="flex-1"
+                        onClick={() => window.open(project.liveUrl, '_blank')}
+                      >
+                        <ExternalLink className="w-4 h-4" />
+                        Ver Proyecto
+                      </Button>
+                    )}
                     <Button 
                       variant="minimal" 
-                      className="flex-1"
+                      className={project.liveUrl ? "flex-1" : "w-full"}
                       onClick={() => window.open(project.githubUrl, '_blank')}
                     >
                       <Github className="w-4 h-4" />
