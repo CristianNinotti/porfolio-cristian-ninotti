@@ -6,6 +6,8 @@ import project2 from "@/assets/project-2.jpg";
 import project3 from "@/assets/project-3.jpg";
 import cotizadorImage from "@/assets/cotizador-image.png";
 import pokemonImage from "@/assets/pokemon-image.png";
+import terapiasImage from "@/assets/terapias-image.png";
+import pongImage from "@/assets/pong-image.png";
 
 const Projects = () => {
   const projects = [
@@ -30,9 +32,9 @@ const Projects = () => {
     {
       title: "Juego Pong con JavaScript",
       description: "Recreación del clásico juego Pong utilizando JavaScript vanilla con funcionalidades de puntuación y controles responsivos.",
-      image: project3,
+      image: pongImage,
       technologies: ["JavaScript", "HTML5", "CSS3", "Canvas"],
-      liveUrl: "https://github.com/CristianNinotti/Juego_Pong_con_JS",
+      liveUrl: "https://cristianninotti.github.io/Juego_Pong_con_JS/",
       githubUrl: "https://github.com/CristianNinotti/Juego_Pong_con_JS",
       featured: true
     },
@@ -57,9 +59,9 @@ const Projects = () => {
     {
       title: "Terapias Complementarias",
       description: "Plataforma web para terapias complementarias con sistema de reservas, información de servicios y gestión de citas.",
-      image: project1,
+      image: terapiasImage,
       technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
-      liveUrl: "https://github.com/CristianNinotti/terapias-complementarias",
+      liveUrl: "https://terapias-complementarias.com.ar/",
       githubUrl: "https://github.com/CristianNinotti/terapias-complementarias",
       featured: true
     }
