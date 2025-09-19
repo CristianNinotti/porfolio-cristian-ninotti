@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Download } from "lucide-react";
+import { Menu, X, Download, Code, Terminal, Braces } from "lucide-react";
+import profilePhoto from "@/assets/profile-photo.jpg";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -40,9 +41,25 @@ const Navigation = () => {
     }`}>
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex justify-between items-center h-16">
-          {/* Logo */}
-          <div className="font-bold text-xl gradient-text">
-            Ninotti.com.ar
+          {/* Logo with Profile */}
+          <div className="flex items-center space-x-4">
+            <div className="relative">
+              {/* Profile Photo */}
+              <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-primary/30 shadow-lg relative">
+                <img 
+                  src={profilePhoto} 
+                  alt="Cristian Ninotti" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              {/* Floating Code Icons */}
+              <Code className="absolute -top-1 -right-1 w-4 h-4 text-primary/70 animate-pulse" />
+              <Terminal className="absolute -bottom-1 -left-1 w-3 h-3 text-primary/60 animate-pulse" style={{ animationDelay: '0.5s' }} />
+              <Braces className="absolute top-3 -right-2 w-3 h-3 text-primary/50 animate-pulse" style={{ animationDelay: '1s' }} />
+            </div>
+            <div className="font-bold text-xl gradient-text">
+              Cristian Ninotti
+            </div>
           </div>
 
           {/* Desktop Navigation */}
