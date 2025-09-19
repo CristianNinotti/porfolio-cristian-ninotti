@@ -90,7 +90,7 @@ const Projects = () => {
               }`}
               style={{ animationDelay: `${index * 0.2}s` }}
             >
-              <div className="relative group">
+              <div className="relative group overflow-hidden">
                 <img 
                   src={project.image}
                   alt={project.title}
