@@ -7,10 +7,18 @@ const Education = () => {
     {
       title: "Tecnicatura en Programación",
       institution: "Universidad Tecnológica Nacional",
-      status: "En proceso",
+      status: "Completado",
       year: "2024",
       category: "Universitario",
-      link: null
+      link: "https://drive.google.com/drive/folders/1CxFK_UfuB-pwKzZvb8bUtgp1wb0KU1rE"
+    },
+    {
+      title: "Titulo Secundario - Economia y Gestion de las Organizaciones",
+      institution: "Soldados Argentinos N°258",
+      status: "Completado",
+      year: "2014",
+      category: "Secundario",
+      link: "https://drive.google.com/drive/folders/14-vn3T0F8VDyUApUfULS7fiBfyK9H3hR?usp=sharing"
     },
     {
       title: "Analista de Sistemas",
@@ -83,6 +91,30 @@ const Education = () => {
       year: "2023",
       category: "Curso",
       link: "https://drive.google.com/drive/folders/1mF4fqbzRRKVRhLfxgh5PZA7h7rZ7jyxj?usp=sharing"
+    },
+    {
+      title: "Webinars",
+      institution: "Educacion IT 2022",
+      status: "Completado",
+      year: "2022",
+      category: "Curso",
+      link: "https://drive.google.com/drive/folders/1HjIB1xuvpgppMY5ksnLbLN2XN6zvR69j"
+    },
+    {
+      title: "Formación Cursos / Varios",
+      institution: "Egg 2022",
+      status: "Completado",
+      year: "2022",
+      category: "Curso",
+      link: "https://drive.google.com/drive/folders/194T499-QPVNx-3YGM7BmYLVCx1MwDII-?usp=sharing"
+    },
+    {
+      title: "C# Intermedio: APIs REST, Docker y Despliegue en Azure",
+      institution: "Polo Tecnológico",
+      status: "Completado",
+      year: "2024",
+      category: "Certificación",
+      link: "https://drive.google.com/drive/folders/16gXetTwBG46h64yp3WC3nU8uROSz64OY"
     }
   ];
 
@@ -90,6 +122,8 @@ const Education = () => {
     switch (category) {
       case "Universitario":
         return "bg-gradient-primary text-primary-foreground";
+      case "Secundario":
+        return "bg-primary/20 text-primary border-primary/30";
       case "Terciario":
         return "bg-accent text-accent-foreground";
       case "Diplomatoria":
