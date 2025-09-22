@@ -1,8 +1,8 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Github } from "lucide-react";
-import project1 from "@/assets/project-1.jpg";
-import project2 from "@/assets/project-2.jpg";
+import serviturnos from "@/assets/serviturnos-image.png";
+import perfumeriaImage from "@/assets/perfumeria-image.jpg";
 import project3 from "@/assets/project-3.jpg";
 import cotizadorImage from "@/assets/cotizador-image.png";
 import pokemonImage from "@/assets/pokemon-image.png";
@@ -14,7 +14,7 @@ const Projects = () => {
     {
       title: "Turnero Servicios Independientes - ServiTurnos",
       description: "Sistema de gestión de turnos para servicios profesionales con funcionalidades de reserva, notificaciones y administración de horarios.",
-      image: project1,
+      image: serviturnos,
       technologies: ["React", "Node.js", "MySQL", "Express"],
       liveUrl: null,
       githubUrl: "https://github.com/CristianNinotti/ServiTurnos",
@@ -23,7 +23,7 @@ const Projects = () => {
     {
       title: "Ecommerce Perfumes - Perfumeria Maison",
       description: "Plataforma de comercio electrónico especializada en perfumes con carrito de compras, gestión de productos y sistema de usuarios.",
-      image: project2,
+      image: perfumeriaImage,
       technologies: ["JavaScript", "HTML", "CSS", "PHP", "MySQL"],
       liveUrl: null,
       githubUrl: "https://github.com/CristianNinotti/TPI-Grupo1-EcommercePerfumes",

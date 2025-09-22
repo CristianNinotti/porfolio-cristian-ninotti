@@ -11,6 +11,7 @@ const Navigation = () => {
     { label: "Sobre Mí", href: "#about" },
     { label: "Tecnologías", href: "#technologies" },
     { label: "Formación", href: "#education" },
+    { label: "Experiencia", href: "#experience" },
     { label: "Proyectos", href: "#projects" },
     { label: "Contacto", href: "#contact" },
   ];
