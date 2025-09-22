@@ -20,7 +20,8 @@ Estas son las herramientas y tecnologías con las que trabajo:
 ## 🚀 Proyectos destacables
 
 - Mi portafolio: este mismo proyecto. Sitio moderno, responsive, limpio y funcional.  
-  * Deploy: [dev-spectacular-folio.vercel.app](https://dev-spectacular-folio.vercel.app) :contentReference[oaicite:0]{index=0}
+  * Deploy: [porfolio-cristian-ninotti.vercel.app](https://porfolio-cristian-ninotti.vercel.app)  
+  * Dominio propio: [ninotti.com.ar](https://ninotti.com.ar)
 
 - Otros proyectos que podés ver en mi perfil, donde aplico lo aprendido y mejor cada día.
 
@@ -28,15 +29,15 @@ Estas son las herramientas y tecnologías con las que trabajo:
 
 ## 🔧 Estructura del repositorio
 
-- `src/` → Código fuente: componentes, rutas, estilos, etc. :contentReference[oaicite:1]{index=1}  
-- Archivos de configuración: `tailwind.config.ts`, `vite.config.ts`, etc. :contentReference[oaicite:2]{index=2}  
-- `public/` → Recursos estáticos. :contentReference[oaicite:3]{index=3}  
+- `src/` → Código fuente: componentes, rutas, estilos, etc.  
+- Archivos de configuración: `tailwind.config.ts`, `vite.config.ts`, etc.  
+- `public/` → Recursos estáticos.  
 
 ---
 
 ## 📈 Estadísticas técnicas
 
-- Uso predominante de **TypeScript** (~96 %) y algo de **CSS** (~2.6 %) :contentReference[oaicite:4]{index=4}  
+- Uso predominante de **TypeScript** (~96 %) y algo de **CSS** (~2.6 %).  
 - Código limpio, moderno y orientado al usuario.  
 - Responsive: se ve bien en móvil, tablet y desktop.
 
@@ -46,9 +47,8 @@ Estas son las herramientas y tecnologías con las que trabajo:
 
 Si querés trabajar conmigo, compartir ideas o saber más:
 
-- 📧 Email: *tu-email@ejemplo.com*  
-- 💼 LinkedIn: *tu-linkedin*  
-- 🐦 Twitter / X: *tu-usuario*
+- 📧 Email: *cristianninotti03@gmail.com*  
+- 💼 LinkedIn: [Cristian Ninotti](https://www.linkedin.com/in/cristian-ninotti)  
 
 ---
 
@@ -63,4 +63,5 @@ Si querés trabajar conmigo, compartir ideas o saber más:
 **Gracias por pasar por acá.**  
 Si te gustó lo que ves o tenés una idea en mente, hablemos.  
 👉 _"El mejor momento para empezar fue ayer; el segundo mejor es hoy."_  
+
 
