@@ -76,7 +76,16 @@ const Hero = () => {
               Descargar CV
             </Button>
             
-            <Button variant="minimal" size="xl">
+            <Button 
+              variant="minimal" 
+              size="xl"
+              onClick={() => {
+                const element = document.querySelector('#projects');
+                if (element) {
+                  element.scrollIntoView({ behavior: 'smooth' });
+                }
+              }}
+            >
               Ver Proyectos
               <ArrowDown className="w-5 h-5 animate-bounce" />
             </Button>
