@@ -117,6 +117,11 @@ const Experience = () => {
               </div>
             ))}
           </div>
+
+          {/* Punto luminoso al final de la línea de tiempo */}
+          <div className="absolute left-4 md:left-1/2 md:transform md:-translate-x-1/2 bottom-0 w-6 h-6 bg-primary rounded-full shadow-[0_0_20px_rgba(59,130,246,0.8)] animate-pulse border-4 border-background z-10">
+            <div className="absolute inset-0 w-full h-full bg-primary rounded-full animate-ping opacity-75"></div>
+          </div>
         </div>
       </div>
     </section>
