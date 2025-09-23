@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Download } from "lucide-react";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -58,6 +59,7 @@ const Navigation = () => {
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-primary transition-all duration-300 group-hover:w-full" />
               </button>
             ))}
+            <ThemeToggle />
             <Button 
               variant="hero" 
               size="sm"
@@ -92,15 +94,18 @@ const Navigation = () => {
                 {item.label}
               </button>
             ))}
-            <Button 
-              variant="hero" 
-              size="sm" 
-              className="w-full"
-              onClick={() => window.open("https://drive.google.com/file/d/1Nnx-Of01YnlvVy5bNon1lnGh577KHzwx/view?usp=drive_link", '_blank')}
-            >
-              <Download className="w-4 h-4" />
-              Descargar CV
-            </Button>
+            <div className="flex items-center gap-2">
+              <ThemeToggle />
+              <Button 
+                variant="hero" 
+                size="sm" 
+                className="flex-1"
+                onClick={() => window.open("https://drive.google.com/file/d/1Nnx-Of01YnlvVy5bNon1lnGh577KHzwx/view?usp=drive_link", '_blank')}
+              >
+                <Download className="w-4 h-4" />
+                Descargar CV
+              </Button>
+            </div>
           </div>
         )}
       </div>
