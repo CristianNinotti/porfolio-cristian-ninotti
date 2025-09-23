@@ -82,7 +82,7 @@ const Education = () => {
       status: "Completado",
       year: "2024",
       category: "Certificación",
-      link: "https://drive.google.com/drive/folders/1mF4fqbzRRKVRhLfxgh5PZA7h7rZ7jyxj?usp=sharing"
+      link: "https://drive.google.com/drive/folders/1Ych_PcGcReRr4RilEiA1NugF5fVHADnQ"
     },
     {
       title: "Curso de Inteligencia Artificial",
