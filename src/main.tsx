@@ -4,7 +4,7 @@ import "./index.css";
 import { ThemeProvider } from "@/components/theme-provider";
 
 createRoot(document.getElementById("root")!).render(
-  <ThemeProvider defaultTheme="system" storageKey="portfolio-theme">
+  <ThemeProvider defaultTheme="dark" storageKey="portfolio-theme">
     <App />
   </ThemeProvider>
 );
