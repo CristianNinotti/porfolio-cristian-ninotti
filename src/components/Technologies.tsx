@@ -97,7 +97,7 @@ const Technologies = () => {
               ofrecer siempre las mejores soluciones.
             </p>
             <div className="flex flex-wrap justify-center gap-3">
-              {["GraphQL", "React Native", "Svelte", "Rust", "Web3", "AI/ML"].map((tech, index) => (
+              {["WinForm", "React Native", "SQL", "MongoDB", "Dbeaver", "AI/ML"].map((tech, index) => (
                 <span 
                   key={index}
                   className="px-4 py-2 bg-card border border-border/50 rounded-full text-sm font-medium hover:bg-primary hover:text-primary-foreground transition-all duration-300 cursor-default"
