@@ -31,6 +31,7 @@ export function ThemeProvider({
   )
 
   useEffect(() => {
+    console.log("ThemeProvider useEffect triggered, theme:", theme)
     const root = window.document.documentElement
     const body = window.document.body
 
@@ -43,20 +44,25 @@ export function ThemeProvider({
         ? "dark"
         : "light"
 
+      console.log("System theme detected:", systemTheme)
       root.classList.add(systemTheme)
       body.classList.add(systemTheme)
       return
     }
 
+    console.log("Applying theme classes:", theme)
     root.classList.add(theme)
     body.classList.add(theme)
+    console.log("Root classes:", root.classList.toString())
+    console.log("Body classes:", body.classList.toString())
   }, [theme])
 
   const value = {
     theme,
-    setTheme: (theme: Theme) => {
-      localStorage.setItem(storageKey, theme)
-      setTheme(theme)
+    setTheme: (newTheme: Theme) => {
+      console.log("setTheme called with:", newTheme)
+      localStorage.setItem(storageKey, newTheme)
+      setTheme(newTheme)
     },
   }
 
