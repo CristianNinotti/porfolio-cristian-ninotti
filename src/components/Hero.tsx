@@ -21,7 +21,7 @@ const Hero = () => {
         {Array.from({ length: 6 }).map((_, i) => (
           <div
             key={i}
-            className="absolute w-2 h-2 bg-primary rounded-full animate-float opacity-60"
+            className="absolute w-2 h-2 bg-primary dark:bg-white rounded-full animate-float opacity-60"
             style={{
               left: `${10 + i * 15}%`,
               top: `${20 + i * 10}%`,
@@ -45,11 +45,11 @@ const Hero = () => {
                 />
               </div>
               {/* Floating Code Icons */}
-              <Code className="absolute -top-2 -right-2 w-8 h-8 text-primary/70 animate-pulse" />
-              <Terminal className="absolute -bottom-2 -left-2 w-6 h-6 text-primary/60 animate-pulse" style={{ animationDelay: '0.5s' }} />
-              <Braces className="absolute top-6 -right-4 w-6 h-6 text-primary/50 animate-pulse" style={{ animationDelay: '1s' }} />
-              <div className="absolute -top-1 left-8 w-4 h-4 bg-primary/40 rounded-full animate-pulse" style={{ animationDelay: '1.5s' }} />
-              <div className="absolute -bottom-1 right-8 w-3 h-3 bg-primary/30 rounded-full animate-pulse" style={{ animationDelay: '2s' }} />
+              <Code className="absolute -top-2 -right-2 w-8 h-8 text-primary/70 dark:text-white/70 animate-pulse" />
+              <Terminal className="absolute -bottom-2 -left-2 w-6 h-6 text-primary/60 dark:text-white/60 animate-pulse" style={{ animationDelay: '0.5s' }} />
+              <Braces className="absolute top-6 -right-4 w-6 h-6 text-primary/50 dark:text-white/50 animate-pulse" style={{ animationDelay: '1s' }} />
+              <div className="absolute -top-1 left-8 w-4 h-4 bg-primary/40 dark:bg-white/40 rounded-full animate-pulse" style={{ animationDelay: '1.5s' }} />
+              <div className="absolute -bottom-1 right-8 w-3 h-3 bg-primary/30 dark:bg-white/30 rounded-full animate-pulse" style={{ animationDelay: '2s' }} />
             </div>
           </div>
           
@@ -65,7 +65,7 @@ const Hero = () => {
             eficientes y escalables con las últimas tecnologías.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-6">
             <Button 
               variant="hero" 
               size="xl" 
