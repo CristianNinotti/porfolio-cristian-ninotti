@@ -34,19 +34,18 @@ const Contact = () => {
       // Inicializar EmailJS
       emailjs.init("-6cMJBOviHkGei8gT");
 
-      // Crear el objeto con los datos del formulario
+      // Crear el objeto con los datos del formulario (nombres coinciden con el template)
       const templateParams = {
-        from_name: formData.name,
-        from_email: formData.email,
-        subject: formData.subject,
-        message: formData.message,
-        to_name: "Cristian Ninotti"
+        name: formData.name,
+        email: formData.email,
+        asunto: formData.subject,
+        mensaje: formData.message
       };
 
-      // Enviar email usando EmailJS
+      // Enviar email usando EmailJS (corregido Template ID)
       await emailjs.send(
         "service_qf8i4nj",
-        "template_y8n8e76", 
+        "service_qf8i4nj", 
         templateParams
       );
 
