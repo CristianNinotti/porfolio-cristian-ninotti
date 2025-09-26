@@ -46,7 +46,7 @@ const Contact = () => {
       // NOTA: Verificar que el Template ID sea correcto en tu dashboard de EmailJS
       await emailjs.send(
         "service_qf8i4nj", // Service ID
-        "template_XXXXX",  // Template ID correcto (diferente al Service ID)
+        "template_y8n8e76",  // Template ID correcto (diferente al Service ID)
         templateParams
       );
 
