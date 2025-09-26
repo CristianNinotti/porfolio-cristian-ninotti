@@ -38,8 +38,8 @@ const Contact = () => {
       const templateParams = {
         name: formData.name,
         email: formData.email,
-        asunto: formData.subject,
-        mensaje: formData.message
+        subject: formData.subject,
+        message: formData.message
       };
 
       // Enviar email usando EmailJS
