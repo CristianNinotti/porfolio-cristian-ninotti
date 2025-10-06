@@ -27,7 +27,7 @@ const About = () => {
           <div className="space-y-6 scroll-reveal">
             <h3 className="text-2xl font-semibold text-primary">Mi Historia</h3>
             <p className="text-muted-foreground leading-relaxed">
-              Comenzé mi viaje en el desarrollo web hace más de 3 años, impulsado por 
+              Comencé mi viaje en el desarrollo web hace más de 3 años, impulsado por 
               la curiosidad de entender cómo funcionan las aplicaciones que usamos diariamente. 
               Desde entonces, he trabajado en proyectos diversos, desde landing pages 
               hasta aplicaciones web complejas.
