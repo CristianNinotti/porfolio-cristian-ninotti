@@ -62,7 +62,6 @@ const Projects = () => {
       image: terapiasImage,
       technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
       liveUrl: "https://terapias-complementarias.com.ar/",
-      githubUrl: "https://github.com/CristianNinotti/terapias-complementarias",
       featured: true
     }
   ];
