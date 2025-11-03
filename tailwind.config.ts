@@ -10,6 +10,7 @@ export default {
       padding: "2rem",
       screens: {
         "2xl": "1400px",
+        'iphone12': {'max': '390px'},
       },
     },
     extend: {

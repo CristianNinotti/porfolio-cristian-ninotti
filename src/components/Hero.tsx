@@ -113,7 +113,7 @@ const Hero = () => {
       </div>
 
       {/* Scroll indicator with text */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20 flex flex-col items-center">
+      <div className="absolute bottom-4 iphone12:bottom-2 left-1/2 transform -translate-x-1/2 z-20 flex flex-col items-center">
         <div className="text-primary text-sm font-medium mb-2 animate-pulse">
           Scroll
         </div>
