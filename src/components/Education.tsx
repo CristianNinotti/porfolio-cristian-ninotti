@@ -115,6 +115,14 @@ const Education = () => {
       year: "2024",
       category: "Certificación",
       link: "https://drive.google.com/drive/folders/16gXetTwBG46h64yp3WC3nU8uROSz64OY"
+    },
+    {
+      title: "XAcademy - N8N",
+      institution: "XAcademy",
+      status: "Completado",
+      year: "2025",
+      category: "Curso",
+      link: "https://drive.google.com/drive/folders/1E9G-qj3SAlUz3xj0nmeC75aV6P1WN7TN?usp=sharing"
     }
   ];
 
