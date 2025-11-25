@@ -117,7 +117,7 @@ const Education = () => {
       link: "https://drive.google.com/drive/folders/16gXetTwBG46h64yp3WC3nU8uROSz64OY"
     },
     {
-      title: "XAcademy - N8N",
+      title: "N8N - Automation",
       institution: "XAcademy",
       status: "Completado",
       year: "2025",
